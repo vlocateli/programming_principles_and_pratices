@@ -1,3 +1,11 @@
+/* 
+ * Program to calculate permutation and combination using cli 
+ * Date 17/03/2021
+ *
+ * 
+ *
+ *
+*/  
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
@@ -5,7 +13,12 @@
 using s64 = int64_t;
 using s32 = int32_t;
 
-
+/*
+ * @input: integer n 
+ * @result: calculates the factorial of n 
+ * @return: returns 1 if n = 0 or n = 1
+ *
+*/  
 s64 rec_factorial( s64 n )
 {
     if( n == 0 || n == 1 )
@@ -15,6 +28,11 @@ s64 rec_factorial( s64 n )
 
     return n * rec_factorial( n - 1 );
 }
+/*
+ * @input: integer n 
+ * @result: calculates the factorial of n 
+ *
+*/  
 
 s64 iter_factorial( s64 n )
 {
