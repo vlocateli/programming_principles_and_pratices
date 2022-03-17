@@ -2,7 +2,7 @@
 
 To run:
 
-##Linux
+#Linux
 
 ```console
 $ gcc <file_name>.cc -o <program_name>
