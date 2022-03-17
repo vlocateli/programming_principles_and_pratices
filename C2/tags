@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Exit	std_lib_facilities.h	/^	Exit(): runtime_error("Exit") {}$/;"	f	struct:Exit
+Exit	std_lib_facilities.h	/^struct Exit : runtime_error {$/;"	s
+H112	std_lib_facilities.h	22;"	d
+Range_error	std_lib_facilities.h	/^	Range_error(int i) :out_of_range("Range error: "+to_string(i)), index(i) { }$/;"	f	struct:Range_error
+Range_error	std_lib_facilities.h	/^struct Range_error : out_of_range {	\/\/ enhanced vector range error reporting$/;"	s
+String	std_lib_facilities.h	/^struct String : std::string {$/;"	s
+Unicode	std_lib_facilities.h	/^typedef long Unicode;$/;"	t
+Vector	std_lib_facilities.h	/^	Vector() { }$/;"	f	struct:Vector
+Vector	std_lib_facilities.h	/^	Vector(I first, I last) : std::vector<T>(first, last) {}$/;"	f	struct:Vector
+Vector	std_lib_facilities.h	/^	Vector(initializer_list<T> list) : std::vector<T>(list) {}$/;"	f	struct:Vector
+Vector	std_lib_facilities.h	/^	Vector(size_type n, const T& v) :std::vector<T>(n,v) {}$/;"	f	struct:Vector
+Vector	std_lib_facilities.h	/^	explicit Vector(size_type n) :std::vector<T>(n) {}$/;"	f	struct:Vector
+Vector	std_lib_facilities.h	/^template< class T> struct Vector : public std::vector<T> {$/;"	s
+as_bytes	std_lib_facilities.h	/^template<class T> char* as_bytes(T& i)	\/\/ needed for binary I\/O$/;"	f
+error	std_lib_facilities.h	/^inline void error(const string& s)$/;"	f
+error	std_lib_facilities.h	/^inline void error(const string& s, const string& s2)$/;"	f
+error	std_lib_facilities.h	/^inline void error(const string& s, int i)$/;"	f
+find	std_lib_facilities.h	/^Iterator<C> find(C& c, Val v)$/;"	f
+find_if	std_lib_facilities.h	/^Iterator<C> find_if(C& c, Pred p)$/;"	f
+foo	tst/2.c	/^void foo(void){$/;"	f
+foo_	some_func.cc	/^void foo_(void){$/;"	f
+hash	std_lib_facilities.h	/^    template<> struct hash<String>$/;"	s	namespace:std
+index	std_lib_facilities.h	/^	int index;$/;"	m	struct:Range_error
+keep_window_open	std_lib_facilities.h	/^inline void keep_window_open()$/;"	f
+keep_window_open	std_lib_facilities.h	/^inline void keep_window_open(string s)$/;"	f
+main	hello_world.cc	/^int main() {$/;"	f
+main	tst/1.c	/^int main(void){$/;"	f
+max	std_lib_facilities.h	195;"	d
+min	std_lib_facilities.h	194;"	d
+narrow_cast	std_lib_facilities.h	/^template<class R, class A> R narrow_cast(const A& a)$/;"	f
+operator ()	std_lib_facilities.h	/^        size_t operator()(const String& s) const$/;"	f	struct:std::hash
+operator []	std_lib_facilities.h	/^	T& operator[](unsigned int i) \/\/ rather than return at(i);$/;"	f	struct:Vector
+operator []	std_lib_facilities.h	/^	char& operator[](unsigned int i) \/\/ rather than return at(i);$/;"	f	struct:String
+operator []	std_lib_facilities.h	/^	const T& operator[](unsigned int i) const$/;"	f	struct:Vector
+operator []	std_lib_facilities.h	/^	const char& operator[](unsigned int i) const$/;"	f	struct:String
+randint	std_lib_facilities.h	/^inline int randint(int max) { return randint(0, max); }$/;"	f
+randint	std_lib_facilities.h	/^inline int randint(int min, int max) { static default_random_engine ran; return uniform_int_distribution<>{min, max}(ran); }$/;"	f
+simple_error	std_lib_facilities.h	/^inline void simple_error(string s)	\/\/ write ``error: s and exit program$/;"	f
+sort	std_lib_facilities.h	/^void sort(C& c)$/;"	f
+sort	std_lib_facilities.h	/^void sort(C& c, Pred p)$/;"	f
+std	std_lib_facilities.h	/^namespace std {$/;"	n
+to_string	std_lib_facilities.h	/^template<class T> string to_string(const T& t)$/;"	f
+vector	std_lib_facilities.h	95;"	d

@@ -1,0 +1,114 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.002  000.002: --- VIM STARTING ---
+000.059  000.057: Allocated generic buffers
+000.078  000.019: locale set
+000.082  000.004: GUI prepared
+000.082  000.000: clipboard setup
+000.084  000.002: window checked
+000.285  000.201: inits 1
+000.295  000.010: parsing arguments
+000.296  000.001: expanding arguments
+000.310  000.014: shell init
+000.763  000.453: xsmp init
+000.911  000.148: Termcap init
+000.941  000.030: inits 2
+001.021  000.080: init highlight
+001.196  000.130  000.130: sourcing /usr/share/vim/vim81/debian.vim
+001.217  000.181  000.051: sourcing $VIM/vimrc
+001.311  000.014  000.014: sourcing /usr/share/vim/vim81/ftoff.vim
+001.473  000.121  000.121: sourcing /home/victor/.vim/Vundle.vim/autoload/vundle.vim
+001.605  000.084  000.084: sourcing /home/victor/.vim/Vundle.vim/autoload/vundle/config.vim
+005.826  003.415  003.415: sourcing /usr/share/vim/vim81/filetype.vim
+005.913  000.021  000.021: sourcing /usr/share/vim/vim81/ftplugin.vim
+005.991  000.018  000.018: sourcing /usr/share/vim/vim81/indent.vim
+006.583  000.454  000.454: sourcing /usr/share/vim/vim81/syntax/syncolor.vim
+006.664  000.584  000.130: sourcing /usr/share/vim/vim81/syntax/synload.vim
+006.680  000.649  000.065: sourcing /usr/share/vim/vim81/syntax/syntax.vim
+006.726  000.006  000.006: sourcing /usr/share/vim/vim81/filetype.vim
+006.789  000.005  000.005: sourcing /usr/share/vim/vim81/ftplugin.vim
+006.851  000.005  000.005: sourcing /usr/share/vim/vim81/indent.vim
+007.083  000.096  000.096: sourcing /usr/share/vim/vim81/syntax/syncolor.vim
+007.194  005.964  001.530: sourcing $HOME/.vimrc
+007.196  000.030: sourcing vimrc file(s)
+007.526  000.252  000.252: sourcing /home/victor/.vim/plugin/clang_format.vim
+007.751  000.101  000.101: sourcing /home/victor/.vim/bundle/nerdtree/autoload/nerdtree.vim
+008.137  000.248  000.248: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/path.vim
+008.228  000.068  000.068: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+008.287  000.038  000.038: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim
+008.361  000.054  000.054: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim
+008.495  000.111  000.111: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim
+008.645  000.127  000.127: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+008.920  000.254  000.254: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+009.036  000.095  000.095: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/opener.vim
+009.183  000.122  000.122: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/creator.vim
+009.226  000.022  000.022: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim
+009.314  000.067  000.067: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+009.493  000.158  000.158: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/ui.vim
+009.523  000.010  000.010: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/event.vim
+009.562  000.020  000.020: sourcing /home/victor/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim
+009.832  000.246  000.246: sourcing /home/victor/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+011.278  000.051  000.051: sourcing /home/victor/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+011.674  000.386  000.386: sourcing /home/victor/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+011.716  000.031  000.031: sourcing /home/victor/.vim/bundle/nerdtree/nerdtree_plugin/vcs.vim
+011.841  004.270  002.061: sourcing /home/victor/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+011.966  000.087  000.087: sourcing /home/victor/.vim/bundle/VimCompletesMe/plugin/VimCompletesMe.vim
+012.224  000.063  000.063: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/init.vim
+012.446  000.056  000.056: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/parts.vim
+012.563  000.009  000.009: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/formatter/short_path.vim
+013.237  000.102  000.102: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/util.vim
+013.293  001.294  001.064: sourcing /home/victor/.vim/bundle/vim-airline/plugin/airline.vim
+013.587  000.251  000.251: sourcing /home/victor/.vim/bundle/auto-pairs/plugin/auto-pairs.vim
+014.243  000.061  000.061: sourcing /home/victor/.vim/bundle/ale/autoload/ale/events.vim
+014.361  000.726  000.665: sourcing /home/victor/.vim/bundle/ale/plugin/ale.vim
+021.610  007.205  007.205: sourcing /home/victor/.vim/bundle/vimsence/plugin/vimsence.vim
+021.821  000.053  000.053: sourcing /usr/share/vim/vim81/plugin/getscriptPlugin.vim
+021.978  000.142  000.142: sourcing /usr/share/vim/vim81/plugin/gzip.vim
+022.133  000.140  000.140: sourcing /usr/share/vim/vim81/plugin/logiPat.vim
+022.166  000.018  000.018: sourcing /usr/share/vim/vim81/plugin/manpager.vim
+022.311  000.132  000.132: sourcing /usr/share/vim/vim81/plugin/matchparen.vim
+022.680  000.354  000.354: sourcing /usr/share/vim/vim81/plugin/netrwPlugin.vim
+022.734  000.028  000.028: sourcing /usr/share/vim/vim81/plugin/rrhelper.vim
+022.773  000.021  000.021: sourcing /usr/share/vim/vim81/plugin/spellfile.vim
+022.895  000.106  000.106: sourcing /usr/share/vim/vim81/plugin/tarPlugin.vim
+022.966  000.054  000.054: sourcing /usr/share/vim/vim81/plugin/tohtml.vim
+023.101  000.118  000.118: sourcing /usr/share/vim/vim81/plugin/vimballPlugin.vim
+023.229  000.109  000.109: sourcing /usr/share/vim/vim81/plugin/zipPlugin.vim
+023.242  000.686: loading plugins
+023.278  000.036: loading packages
+023.339  000.061: loading after plugins
+023.780  000.441: inits 3
+023.952  000.172: reading viminfo
+025.333  001.381: setup clipboard
+025.343  000.010: setting raw mode
+025.347  000.004: start termcap
+025.355  000.008: clearing screen
+025.832  000.228  000.228: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/extensions.vim
+025.931  000.033  000.033: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/extensions/quickfix.vim
+026.088  000.117  000.117: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline.vim
+026.218  000.033  000.033: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/extensions/netrw.vim
+026.407  000.045  000.045: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/section.vim
+026.632  000.136  000.136: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/highlighter.vim
+026.822  000.530  000.349: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/extensions/term.vim
+027.074  000.057  000.057: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/extensions/ale.vim
+027.323  000.083  000.083: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/extensions/whitespace.vim
+027.495  000.059  000.059: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/extensions/wordcount.vim
+027.614  000.019  000.019: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/extensions/keymap.vim
+031.135  000.037  000.037: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/themes.vim
+031.343  000.303  000.266: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/themes/dark.vim
+042.851  000.098  000.098: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/builder.vim
+043.083  000.053  000.053: sourcing /home/victor/.vim/bundle/vim-airline/autoload/airline/extensions/default.vim
+051.799  000.113  000.113: sourcing /home/victor/.vim/bundle/ale/autoload/ale.vim
+051.844  024.763: opening buffers
+052.548  000.704: BufEnter autocommands
+052.550  000.002: editing files in windows
+052.699  000.149: VimEnter autocommands
+052.700  000.001: before starting main loop
+059.411  000.236  000.236: sourcing /home/victor/.vim/bundle/ale/autoload/ale/engine.vim
+059.528  000.052  000.052: sourcing /home/victor/.vim/bundle/ale/autoload/ale/statusline.vim
+060.846  007.858: first screen update
+060.847  000.001: --- VIM STARTED ---
