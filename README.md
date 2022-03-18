@@ -1,5 +1,7 @@
 # Programming_principles_and_pratice
 
+### Solutions to exercises
+
 To run:
 
 ## Linux
@@ -19,6 +21,6 @@ Some folders have makefiles,to compile it run:
 
 ```console
 $ make 
-```
+	```
 Note: Makefile only runs on Linux.
 
