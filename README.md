@@ -1,4 +1,4 @@
-# Programming_principles_and_pratice
+# Programming principles and pratice
 
 ### Solutions to exercises
 
